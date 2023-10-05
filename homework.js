@@ -37,6 +37,7 @@ function makeToDoList(taskData) {
                 e.target.remove()
             } else {
                 individualTask.innerText += ` completed`
+                individualTask.style.color = 'green'
             }
         })
     }
